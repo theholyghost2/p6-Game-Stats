@@ -1,0 +1,26 @@
+{
+        "perl" : "6.c",
+        "name" : "Game::Stats",
+        "auth" : "CPAN:HOLYGHOST",
+        "api" : "1",
+        "version" : "0.2.10",
+        "description" : "Minimal Statistics package.",
+        "authors" : [ "The Holy Ghost" ],
+        "license" : "General Public License 3, Artistic-2.0",
+        "provides" : {
+            "Game::Stats::Correlation" : "lib/Game/Stats/Correlation.pm6",
+            "Game::Stats::Covariance" : "lib/Game/Stats/Covariance.pm6",
+            "Game::Stats::Population" : "lib/Game/Stats/Population.pm6",
+            "Game::Stats::DistributionPopulation" : "lib/Game/Stats/DistributionPopulation.pm6",
+            "Game::Stats::Probablity" : "lib/Game/Stats/Probability.pm6"
+        },
+        "depends" : [ ],
+        "build-depends" : [ ],
+        "test-depends" : [ ],
+        "resources" : [ ],
+        "tags": [
+          "Game", "Stats"
+        ],
+        "source-url" : "http://cpan.metacpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-Stats-0.2.10.tar.gz"
+
+}
