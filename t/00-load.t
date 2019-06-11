@@ -15,10 +15,10 @@ plan $num-tests;
 # .... tests 
 #  
 
-use-ok Game::Stats::Population;
-use-ok Game::Stats::DistributionPopulation;
-use-ok Game::Stats::Covariance;
-use-ok Game::Stats::Correlation;
-use-ok Game::Stats::Probability;
+use-ok "Game::Stats::Population";
+use-ok "Game::Stats::DistributionPopulation";
+use-ok "Game::Stats::Covariance";
+use-ok "Game::Stats::Correlation";
+use-ok "Game::Stats::Probability";
 
 done-testing;  # optional with 'plan' 
