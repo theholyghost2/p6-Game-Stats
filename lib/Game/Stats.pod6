@@ -1,4 +1,4 @@
-=begin Mathx - Stat
+=begin Game-Stats
 
 =head1 Population.pm6 and DistributionPopulation.pm6
 
@@ -41,4 +41,4 @@ Exact method for multi variate Bayes function.
 Most things should be clear from a math point of view. Any statistics
 book should give you the data needed to understand the above functionality.
 
-=end
+=end Game-Stats
