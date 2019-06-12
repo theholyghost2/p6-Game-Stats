@@ -1,6 +1,15 @@
-=begin Game-Stats 0.2
+=begin pod
 
-=head1 Population.pm6 and DistributionPopulation.pm6
+=NAME   Game::Stats 
+=AUTHOR The Holy Ghost 
+=VERSION 0.2
+
+=head1 Description
+
+This is a minimal statistics package built for games, it 
+approximates several algorithms for speed
+
+=head2 Population.pm6 and DistributionPopulation.pm6
 
 A Population is a list handle, wrapper to which you can add probabilities,
 using the method add($x) and accessing using nth($index).
@@ -13,12 +22,12 @@ DistributionPopulation which has a Population superclass.
 Expectance calculates the mean of the DistributionPopulation, the Variance
 the variance on them.
 
-=head2 Covariance.pm6 and Correlation.pm6
+=head3 Covariance.pm6 and Correlation.pm6
 
 Specific classes which are built using 2 Distributionpopulation superclasses 
 through Covariance($xpop, $ypop) and Correlation($xpop, $ypop).
 
-=head3 Probability.pm6
+=head4 Probability.pm6
 
 The superclass is a DistributionPopulation, methods are :
 
@@ -41,9 +50,9 @@ Bayes(@indices, @pbconda, $n),
 @indices are the indices in @pbconda, $n is the index of the fixed chance.
 Exact method for multi variate Bayes function.
 
-=head4 End notes
+=head5 End notes
 
 Most things should be clear from a math point of view. Any statistics
 book should give you the data needed to understand the above functionality.
 
-=end Game-Stats
+=end pod 
