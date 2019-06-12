@@ -1,4 +1,4 @@
-=begin Game-Stats
+=begin Game-Stats 0.2
 
 =head1 Population.pm6 and DistributionPopulation.pm6
 
