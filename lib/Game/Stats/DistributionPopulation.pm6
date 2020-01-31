@@ -40,4 +40,15 @@ class Game::Stats::DistributionPopulation is Game::Stats::Population does ThisGe
 		return $var / (@.population.elems - 1);
 	}
 
+
+	### cumulative distribution unto $index
+	method Cumulative ($index = @.population.elems) {
+		my $sum = 0.0;
+
+		for (my $i = 0; $i < $index; $i++) {
+			$sum += @.population[$i];
+		}
+
+		return $sum;
+	}
 }
